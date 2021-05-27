@@ -57,6 +57,7 @@ public class InterSectionOfTwoArrays {
     static int[] interSectionLeetCode(int[] nums1, int[] nums2) {
         if (nums1.length == 0 || nums2.length == 0)
             return new int[] {};
+
         Map<Integer, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         // Adding it to the map.
